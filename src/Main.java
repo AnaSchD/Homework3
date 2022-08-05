@@ -10,17 +10,34 @@ public class Main {
             // задача 2
 
         int clientDeviceYear = 2017;
-        if (clientOS == 1); {
-            if (clientDeviceYear >= 2015); {
-                System.out.println("Установите версию приложения для iOS по ссылке");
-            } if (clientDeviceYear < 2015); {
-                System.out.println ("Установи облегченную версию приложения для iOS по ссылке");
-            }
-        }{
-            if (clientDeviceYear >= 2015);
+        if (clientOS == 1)
+            {
+            if (clientDeviceYear >= 2015)
+                {
+                    System.out.println("Установите версию приложения для iOS по ссылке");
+
+                } else
+                    {
+                        System.out.println ("Установи облегченную версию приложения для iOS по ссылке");
+                    }
+                }
+            {
+        if (clientDeviceYear >= 2015)
+              {
             System.out.println("Установите версию приложения для Android по ссылке");
-            } if (clientDeviceYear < 2015); {
-                System.out.println("Установи облегченную версию приложения для Android по ссылке");
-            }
+
+             } else
+        {
+            System.out.println ("Установи облегченную версию приложения для Android по ссылке");
         }
+              }
+        }
+
+
+
+
+
+
+
+
         }
