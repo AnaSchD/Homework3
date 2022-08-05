@@ -1,12 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        int clientOSIos = 0;
-        int clientOSAndroid = 1;
-        if (clientOSIos ==0); {
+        //задача 1
+        int clientOS = 1;
+        if (clientOS == 0); {
             System.out.println("Установите версию приложения iOS по ссылке");
-        }
-        if (clientOSAndroid == 1); {
-                System.out.println("Установите версию приложения для Android");
+        } if (clientOS == 1); {
+                System.out.println("Установите версию приложения для Android по ссылке");
             }
     }
+ // задача 2
+    int clientOS = 1;
+    int clientDeviceYear = 2017;
+
 }
